@@ -31,11 +31,17 @@ public class main extends ActionBarActivity implements OnClickListener{
     public void onClick (View v){
         if(v.getId() == R.id.btnStart){
             //
-        }else if (v.getId() == R.id.btnCards){
+        }
+        else if (v.getId() == R.id.btnCards){
             //
-        }else if (v.getId() == R.id.btnPreferences){
+        }
+        else if (v.getId() == R.id.btnPreferences){
             //
-        }else if (v.getId() == R.id.btnRules){
+            Intent intOpenForm = new Intent(main.this,preferences.class);
+            startActivity(intOpenForm);
+        }
+        else if (v.getId() == R.id.btnRules){
+            //
             Intent intOpenForm = new Intent(main.this,rules.class);
             startActivity(intOpenForm);
         }
