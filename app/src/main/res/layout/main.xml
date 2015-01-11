@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:text="@string/button_start"
             android:id="@+id/btnStart"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:textAppearance="@style/btnTextStyle" />
 
         <Button
             android:layout_width="fill_parent"
@@ -30,7 +31,8 @@
             android:layout_margin="10dp"
             android:enabled="true"
             android:visibility="visible"
-            android:clickable="true" />
+            android:clickable="true"
+            android:textAppearance="@style/btnTextStyle" />
 
         <Button
             android:layout_width="match_parent"
@@ -40,7 +42,8 @@
             android:layout_margin="10dp"
             android:enabled="true"
             android:visibility="visible"
-            android:clickable="true" />
+            android:clickable="true"
+            android:textAppearance="@style/btnTextStyle" />
 
         <Button
             android:layout_width="match_parent"
@@ -50,7 +53,8 @@
             android:text="@string/button_rules"
             android:enabled="true"
             android:visibility="visible"
-            android:clickable="true" />
+            android:clickable="true"
+            android:textAppearance="@style/btnTextStyle" />
 
     </LinearLayout>
 
