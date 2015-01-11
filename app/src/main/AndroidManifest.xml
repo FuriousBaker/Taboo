@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".rules"
+            android:label="@string/title_activity_rules" >
+        </activity>
+        <activity
+            android:name=".preferences"
+            android:label="@string/title_activity_preferences" >
+        </activity>
     </application>
 
 </manifest>

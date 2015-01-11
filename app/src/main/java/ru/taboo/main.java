@@ -1,5 +1,6 @@
 package ru.taboo;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -27,7 +28,18 @@ public class main extends ActionBarActivity implements OnClickListener{
         btnRules.setOnClickListener(this);
     }
 
-
+    public void onClick (View v){
+        if(v.getId() == R.id.btnStart){
+            //
+        }else if (v.getId() == R.id.btnCards){
+            //
+        }else if (v.getId() == R.id.btnPreferences){
+            //
+        }else if (v.getId() == R.id.btnRules){
+            Intent intOpenForm = new Intent(main.this,rules.class);
+            startActivity(intOpenForm);
+        }
+    }
 
 
     @Override
@@ -52,4 +64,5 @@ public class main extends ActionBarActivity implements OnClickListener{
         */
         return super.onOptionsItemSelected(item);
     }
+
 }

@@ -4,11 +4,14 @@
     <string name="app_name">Табу</string>
     <!-- string name="action_settings">Settings</string -->
 
+
     <!-- main activity strings -->
     <string name="button_start">Играть</string>
     <string name="button_cards">Карты</string>
     <string name="button_preferences">Настройки</string>
     <string name="button_rules">Правила</string>
+
+    <string name="title_activity_rules">Правила игры</string>
 
 
 </resources>
